@@ -4,6 +4,9 @@
 
 FinBench Arena is an open-source platform for benchmarking Large Language Models (LLMs) in financial applications. Adapted from Chatbot Arena, this project extends its functionality to meet the unique demands of the financial services industry, enabling rigorous, domain-specific evaluation of AI models. Through tasks like legal document summarization, compliance validation, and risk analysis, FinBench offers a transparent framework for assessing alignment, reliability, and fairness in financial contexts.
 
+<img width="549" alt="Screenshot 2024-12-17 at 11 21 31 PM" src="https://github.com/user-attachments/assets/1803bc5b-ba9e-46ff-98bf-185992e400dd" />
+
+
 ## What’s New in FinBench Arena?
 
 FinBench builds on the foundation of Chatbot Arena with enhancements designed specifically for financial use cases:
@@ -381,6 +384,17 @@ More instructions to train other models (e.g., FastChat-T5) and use LoRA are in 
 ### Fine-tuning on Any Cloud with SkyPilot
 [SkyPilot](https://github.com/skypilot-org/skypilot) is a framework built by UC Berkeley for easily and cost effectively running ML workloads on any cloud (AWS, GCP, Azure, Lambda, etc.).
 Find SkyPilot documentation [here](https://github.com/skypilot-org/skypilot/tree/master/llm/vicuna) on using managed spot instances to train Vicuna and save on your cloud costs.
+
+## Acknowledgments
+Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), [Benki](https://ben-ki.com) and especially the [LM Arena team](https://x.com/lmarena_ai) for your support in our ongoing journey.
+
+<div class="sponsor-image-about">
+    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="rdi">
+    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="skylab">
+    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="goodfire">
+    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="benki">
+    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="lmarena">
+</div>
 
 ## Citation
 The code (training, serving, and evaluation) in this repository is mostly developed for or derived from the paper below.
