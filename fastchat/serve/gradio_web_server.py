@@ -54,12 +54,12 @@ enable_btn = gr.Button(interactive=True, visible=True)
 disable_btn = gr.Button(interactive=False)
 invisible_btn = gr.Button(interactive=False, visible=False)
 enable_text = gr.Textbox(
-    interactive=True, visible=True, placeholder="👉 Enter your prompt and press ENTER"
+    interactive=True, visible=True, placeholder="Enter your prompt..."
 )
 disable_text = gr.Textbox(
     interactive=False,
     visible=True,
-    placeholder='Press "🎲 New Round" to start over👇 (Note: Your vote shapes the leaderboard, please vote RESPONSIBLY!)',
+    placeholder='Press "New Round" to start over (Note: Your vote shapes the leaderboard—better data means better answers for you and your firm.)',
 )
 
 controller_url = None
@@ -68,30 +68,17 @@ use_remote_storage = False
 
 acknowledgment_md = """
 ### Terms of Service
+Users are ***required*** to agree to the following terms before using the service:
 
-Users are required to agree to the following terms before using the service:
-
-The service is a research preview. It only provides limited safety measures and may generate offensive content.
+> The service is a research preview. It only provides limited safety measures and may generate offensive content.
 It must not be used for any illegal, harmful, violent, racist, or sexual purposes.
-Please do not upload any private information.
-The service collects user dialogue data, including both text and images, and reserves the right to distribute it under a Creative Commons Attribution (CC-BY) or a similar license.
+Please do not upload any private information. 
+The service collects user dialog data, including both text and images, and reserves the right to distribute it under a Creative Commons Attribution (CC-BY) or a similar license.
 
-#### Please report any bug or issue to our [Discord](https://discord.gg/6GXcFg3TH8)/arena-feedback.
+Please report any issues or bugs to our [support email](anish@ben-ki.com)
 
-### Acknowledgment
-We thank [UC Berkeley SkyLab](https://sky.cs.berkeley.edu/), [Kaggle](https://www.kaggle.com/), [MBZUAI](https://mbzuai.ac.ae/), [a16z](https://www.a16z.com/), [Together AI](https://www.together.ai/), [Hyperbolic](https://hyperbolic.xyz/), [RunPod](https://runpod.io), [Anyscale](https://www.anyscale.com/), [HuggingFace](https://huggingface.co/) for their generous [sponsorship](https://lmsys.org/donations/).
-
-<div class="sponsor-image-about">
-    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="SkyLab">
-    <img src="https://storage.googleapis.com/public-arena-asset/kaggle.png" alt="Kaggle">
-    <img src="https://storage.googleapis.com/public-arena-asset/mbzuai.jpeg" alt="MBZUAI">
-    <img src="https://storage.googleapis.com/public-arena-asset/a16z.jpeg" alt="a16z">
-    <img src="https://storage.googleapis.com/public-arena-asset/together.png" alt="Together AI">
-    <img src="https://storage.googleapis.com/public-arena-asset/hyperbolic_logo.png" alt="Hyperbolic">
-    <img src="https://storage.googleapis.com/public-arena-asset/runpod-logo.jpg" alt="RunPod">
-    <img src="https://storage.googleapis.com/public-arena-asset/anyscale.png" alt="AnyScale">
-    <img src="https://storage.googleapis.com/public-arena-asset/huggingface.png" alt="HuggingFace">
-</div>
+### Acknowledgments
+Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), and especially the [LM Arena team](https://x.com/lmarena_ai) for your guidance and support in our ongoing journey.
 """
 
 # JSON file format of API-based models:
