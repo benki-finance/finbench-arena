@@ -386,27 +386,15 @@ More instructions to train other models (e.g., FastChat-T5) and use LoRA are in 
 Find SkyPilot documentation [here](https://github.com/skypilot-org/skypilot/tree/master/llm/vicuna) on using managed spot instances to train Vicuna and save on your cloud costs.
 
 ## Acknowledgments
-Special thanks to some of our mentors and collaborators (with many more to come!)
+Special thanks to some of our mentors and collaborators (with many more to come)
 
-[![Berkeley RDI][rdi-logo]][rdi-link]  
-[![SkyLab][skylab-logo]][skylab-link]  
-[![Goodfire][goodfire-logo]][goodfire-link]  
-[![Benki][benki-logo]][benki-link]  
-[![LM Arena][lmarena-logo]][lmarena-link]
-
----
-
-[rdi-logo]: https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png "Berkeley RDI"
-[skylab-logo]: https://storage.googleapis.com/public-arena-asset/skylab.png "SkyLab"
-[goodfire-logo]: https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png "Goodfire"
-[benki-logo]: https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75 "Benki"
-[lmarena-logo]: https://lmsys.org/images/blog/vicuna/vicuna.jpeg "LM Arena"
-
-[rdi-link]: https://rdi.berkeley.edu
-[skylab-link]: https://skylab.com
-[goodfire-link]: https://goodfire.com
-[benki-link]: https://www.ben-ki.com
-[lmarena-link]: https://lmsys.org
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="Berkeley RDI" title="Berkeley RDI" width="150">
+    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="SkyLab" title="SkyLab" width="150">
+    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="Goodfire" title="Goodfire" width="150">
+    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="Benki" title="Benki" width="150">
+    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="LM Arena" title="LM Arena" width="150">
+</div>
 
 ## Citation
 The code (training, serving, and evaluation) in this repository is mostly developed for or derived from the paper below.
