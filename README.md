@@ -4,8 +4,7 @@
 
 FinBench Arena is an open-source platform for benchmarking Large Language Models (LLMs) in financial applications. Adapted from Chatbot Arena, this project extends its functionality to meet the unique demands of the financial services industry, enabling rigorous, domain-specific evaluation of AI models. Through tasks like legal document summarization, compliance validation, and risk analysis, FinBench offers a transparent framework for assessing alignment, reliability, and fairness in financial contexts.
 
-<img width="549" alt="Screenshot 2024-12-17 at 11 21 31 PM" src="https://github.com/user-attachments/assets/1803bc5b-ba9e-46ff-98bf-185992e400dd" />
-
+https://github.com/user-attachments/assets/8d1f22cc-d6bb-4158-a96e-99038e591922
 
 ## What’s New in FinBench Arena?
 
