@@ -386,15 +386,27 @@ More instructions to train other models (e.g., FastChat-T5) and use LoRA are in 
 Find SkyPilot documentation [here](https://github.com/skypilot-org/skypilot/tree/master/llm/vicuna) on using managed spot instances to train Vicuna and save on your cloud costs.
 
 ## Acknowledgments
-Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), [Benki](https://ben-ki.com) and especially the [LM Arena team](https://x.com/lmarena_ai) for your support in our ongoing journey.
+Special thanks to some of our mentors and collaborators (with many more to come!)
 
-<div class="sponsor-image-about">
-    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="rdi">
-    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="skylab">
-    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="goodfire">
-    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="benki">
-    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="lmarena">
-</div>
+[![Berkeley RDI][rdi-logo]][rdi-link]  
+[![SkyLab][skylab-logo]][skylab-link]  
+[![Goodfire][goodfire-logo]][goodfire-link]  
+[![Benki][benki-logo]][benki-link]  
+[![LM Arena][lmarena-logo]][lmarena-link]
+
+---
+
+[rdi-logo]: https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png "Berkeley RDI"
+[skylab-logo]: https://storage.googleapis.com/public-arena-asset/skylab.png "SkyLab"
+[goodfire-logo]: https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png "Goodfire"
+[benki-logo]: https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75 "Benki"
+[lmarena-logo]: https://lmsys.org/images/blog/vicuna/vicuna.jpeg "LM Arena"
+
+[rdi-link]: https://rdi.berkeley.edu
+[skylab-link]: https://skylab.com
+[goodfire-link]: https://goodfire.com
+[benki-link]: https://www.ben-ki.com
+[lmarena-link]: https://lmsys.org
 
 ## Citation
 The code (training, serving, and evaluation) in this repository is mostly developed for or derived from the paper below.
