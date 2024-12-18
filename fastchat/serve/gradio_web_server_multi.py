@@ -181,7 +181,7 @@ window.__gradio_mode__ = "app";
                 with gr.Tab("💬 Direct Chat", id=2) as direct_tab:
                     direct_tab.select(None, None, None, js=alert_js)
                     single_model_list = build_single_model_ui(
-                        context.text_models, add_promotion_links=True
+                        context.text_models, add_promotion_links=False
                     )
 
             demo_tabs = (
