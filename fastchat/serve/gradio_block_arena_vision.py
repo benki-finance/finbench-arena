@@ -300,7 +300,7 @@ def build_single_vision_language_model_ui(
 ):
     promotion = (
         f"""
-[Blog](ABRAR) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahman)
+[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahmanstatus/1869267744904143202)
 
 
 {SURVEY_LINK}

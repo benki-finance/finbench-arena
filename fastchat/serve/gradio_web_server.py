@@ -799,11 +799,11 @@ We always welcome contributions from the community. If you're interested in gett
 
 ## Learn more
 - FinbenchArena [working paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8/edit?tab=t.0#heading=h.sb43rot108th)
-- RDI Agents MOOC [launch post](ABRAR)
+- RDI Agents MOOC [launch post](https://x.com/abrarfrahman/status/1869267744904143202)
 - Arena projects [general policies](https://blog.lmarena.ai/blog/2024/policy/)
 
 ## Contact Us
-- Follow our [X](https://x.com/abrarfrahman), [Discord](ABRAR)
+- Send new use cases to anish [at] benki.com
 - File issues on [GitHub](https://github.com/benki-finance/finbench-arena)
 
 ### Acknowledgments
@@ -823,7 +823,7 @@ Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [Sk
 def build_single_model_ui(models, add_promotion_links=False):
     promotion = (
         f"""
-            [Blog](ABRAR) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahman)
+            [Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahmanstatus/1869267744904143202)
 
             {SURVEY_LINK}
 
