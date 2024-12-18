@@ -799,11 +799,11 @@ We always welcome contributions from the community. If you're interested in gett
 
 ## Learn more
 - FinbenchArena [working paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8/edit?tab=t.0#heading=h.sb43rot108th)
-- RDI Agents MOOC [launch post](TODO)
+- RDI Agents MOOC [launch post](ABRAR)
 - Arena projects [general policies](https://blog.lmarena.ai/blog/2024/policy/)
 
 ## Contact Us
-- Follow our [X](https://x.com/abrarfrahman), [Discord](TODO)
+- Follow our [X](https://x.com/abrarfrahman), [Discord](ABRAR)
 - File issues on [GitHub](https://github.com/benki-finance/finbench-arena)
 
 ### Acknowledgments
@@ -823,17 +823,17 @@ Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [Sk
 def build_single_model_ui(models, add_promotion_links=False):
     promotion = (
         f"""
-            [Blog](https://blog.lmarena.ai/blog/2023/arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2403.04132) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/6GXcFg3TH8) | [Kaggle Competition](https://www.kaggle.com/competitions/lmsys-chatbot-arena)
+            [Blog](ABRAR) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahman)
 
             {SURVEY_LINK}
 
-            ## 👇 Choose any model to chat
+            ## Choose any model to chat
         """ if add_promotion_links
         else ""
     )
 
     notice_markdown = f"""
-# 🏔️ Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots
+# FinBench Arena: Free AI Chat to Compare & Test Agents for Investment Banking, Private Equity, Capital Markets, Real Estate, & More
 {promotion}
 """
 
@@ -963,8 +963,8 @@ def build_single_model_ui(models, add_promotion_links=False):
 
 def build_demo(models):
     with gr.Blocks(
-        title="Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots",
-        theme=gr.themes.Default(),
+        title="FinBench Arena: Free AI Chat to Compare & Test Agents for Investment Banking, Private Equity, Capital Markets, Real Estate, & More",
+        theme='lone17/kotaemon@0.0.4',
         css=block_css,
     ) as demo:
         url_params = gr.JSON(visible=False)

@@ -1097,8 +1097,7 @@ def build_demo(elo_results_file, leaderboard_table_file, arena_hard_leaderboard)
 
     with gr.Blocks(
         title="Chatbot Arena Leaderboard",
-        # theme=gr.themes.Default(text_size=text_size),
-        theme=theme,
+        theme='lone17/kotaemon@0.0.4',
         css=block_css,
     ) as demo:
         with gr.Tabs() as tabs:

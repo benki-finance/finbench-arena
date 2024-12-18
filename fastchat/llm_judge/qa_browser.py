@@ -362,7 +362,7 @@ def build_demo():
 
     with gr.Blocks(
         title="MT-Bench Browser",
-        theme=gr.themes.Base(text_size=gr.themes.sizes.text_lg),
+        theme='lone17/kotaemon@0.0.4',
         css=block_css,
     ) as demo:
         gr.Markdown(

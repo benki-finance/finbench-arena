@@ -138,26 +138,26 @@ window.__gradio_mode__ = "app";
         """
     text_size = gr.themes.sizes.text_lg
     with gr.Blocks(
-        title="Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots",
-        theme=gr.themes.Default(text_size=text_size),
+        title="FinBench Arena: Free AI Chat to Compare & Test Agents for Investment Banking, Private Equity, Capital Markets, Real Estate, & More",
+        theme='lone17/kotaemon@0.0.4',
         css=block_css,
         head=head_js,
     ) as demo:
         with gr.Tabs() as inner_tabs:
             if args.vision_arena:
-                with gr.Tab("⚔️ Arena (battle)", id=0) as arena_tab:
+                with gr.Tab("🥷 Blinded (default)", id=0) as arena_tab:
                     arena_tab.select(None, None, None, js=load_js)
                     side_by_side_anony_list = build_side_by_side_vision_ui_anony(
                         context,
                         random_questions=args.random_questions,
                     )
-                with gr.Tab("⚔️ Arena (side-by-side)", id=1) as side_by_side_tab:
+                with gr.Tab("💼 Custom (pick two)", id=1) as side_by_side_tab:
                     side_by_side_tab.select(None, None, None, js=alert_js)
                     side_by_side_named_list = build_side_by_side_vision_ui_named(
                         context, random_questions=args.random_questions
                     )
 
-                with gr.Tab("💬 Direct Chat", id=2) as direct_tab:
+                with gr.Tab("📩 Message (pick one)", id=2) as direct_tab:
                     direct_tab.select(None, None, None, js=alert_js)
                     single_model_list = build_single_vision_language_model_ui(
                         context,
@@ -166,19 +166,19 @@ window.__gradio_mode__ = "app";
                     )
 
             else:
-                with gr.Tab("⚔️ Arena (battle)", id=0) as arena_tab:
+                with gr.Tab("🥷 Blinded (default)", id=0) as arena_tab:
                     arena_tab.select(None, None, None, js=load_js)
                     side_by_side_anony_list = build_side_by_side_ui_anony(
                         context.all_text_models
                     )
 
-                with gr.Tab("⚔️ Arena (side-by-side)", id=1) as side_by_side_tab:
+                with gr.Tab("💼 Custom (pick two)", id=1) as side_by_side_tab:
                     side_by_side_tab.select(None, None, None, js=alert_js)
                     side_by_side_named_list = build_side_by_side_ui_named(
                         context.text_models
                     )
 
-                with gr.Tab("💬 Direct Chat", id=2) as direct_tab:
+                with gr.Tab("📩 Message (pick one)", id=2) as direct_tab:
                     direct_tab.select(None, None, None, js=alert_js)
                     single_model_list = build_single_model_ui(
                         context.text_models, add_promotion_links=False
@@ -192,7 +192,7 @@ window.__gradio_mode__ = "app";
             )
 
             if elo_results_file:
-                with gr.Tab("🏆 Leaderboard", id=3):
+                with gr.Tab("🏅 Leaderboard", id=3):
                     build_leaderboard_tab(
                         elo_results_file,
                         leaderboard_table_file,
@@ -200,7 +200,7 @@ window.__gradio_mode__ = "app";
                         show_plot=True,
                     )
 
-            with gr.Tab("ℹ️ About Us", id=4):
+            with gr.Tab("👨‍🌾 About Us", id=4):
                 about = build_about()
 
         context_state = gr.State(context)

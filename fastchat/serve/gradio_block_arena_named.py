@@ -313,16 +313,16 @@ def flash_buttons():
 
 def build_side_by_side_ui_named(models):
     notice_markdown = f"""
-# ⚔️  Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots
-[Blog](https://blog.lmarena.ai/blog/2023/arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2403.04132) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/6GXcFg3TH8) | [Kaggle Competition](https://www.kaggle.com/competitions/lmsys-chatbot-arena)
+# FinBench Arena: Free AI Chat to Compare & Test Agents for Investment Banking, Private Equity, Capital Markets, Real Estate, & More
+[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [GitHub](https://github.com/benki-finance/finbench-arena) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://x.com/abrarfrahman/status/1869267744904143202)
 
 {SURVEY_LINK}
 
-## 📜 How It Works
+## How It Works
 - Ask any question to two chosen models (e.g., ChatGPT, Gemini, Claude, Llama) and vote for the better one!
 - You can chat for multiple turns until you identify a winner.
 
-## 👇 Choose two models to compare
+## Choose two models to compare
 """
 
     states = [gr.State() for _ in range(num_sides)]
