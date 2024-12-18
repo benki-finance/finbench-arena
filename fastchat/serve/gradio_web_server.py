@@ -672,11 +672,11 @@ block_css = """
 }
 
 a {
-    color: #1976D2; /* Your current link color, a shade of blue */
+    color: #059669; /* Your current link color, a shade of blue */
     text-decoration: none; /* Removes underline from links */
 }
 a:hover {
-    color: #63A4FF; /* This can be any color you choose for hover */
+    color: #f3d0a7; /* This can be any color you choose for hover */
     text-decoration: underline; /* Adds underline on hover */
 }
 
@@ -790,10 +790,7 @@ def get_model_description_md(models):
 def build_about():
     about_markdown = """
 # About Us
-FinBench Arena is an open-source platform for evaluating AI for financial services use-cases through human preference.
-Forked from Chatbot Arena 
-
-, developed by researchers at UC Berkeley [SkyLab](https://sky.cs.berkeley.edu/) and [LMSYS](https://lmsys.org). Using the open-source [FastChat](https://github.com/lm-sys/FastChat) project at GitHub and release open datasets. 
+FinBench Arena is an open-source platform for evaluating AI for financial services use-cases through human preference. Forked from [FastChat](https://github.com/lm-sys/FastChat), developed by researchers at UC Berkeley [SkyLab](https://sky.cs.berkeley.edu/) and [LMSYS](https://lmsys.org).
 We always welcome contributions from the community. If you're interested in getting involved, we'd love to hear from you!
 
 ## Open-source contributors
@@ -802,28 +799,22 @@ We always welcome contributions from the community. If you're interested in gett
 
 ## Learn more
 - FinbenchArena [working paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8/edit?tab=t.0#heading=h.sb43rot108th)
-- [launch blog](TODO),
-- [policy](https://blog.lmarena.ai/blog/2024/policy/)
+- RDI Agents MOOC [launch post](TODO)
+- Arena projects [general policies](https://blog.lmarena.ai/blog/2024/policy/)
 
 ## Contact Us
-- Follow our [X](https://x.com/lmsysorg), [Discord](https://discord.gg/6GXcFg3TH8) or email us at `lmarena.ai@gmail.com`
-- File issues on [GitHub](https://github.com/lm-sys/FastChat)
-- Download our datasets and models on [HuggingFace](https://huggingface.co/lmsys)
+- Follow our [X](https://x.com/abrarfrahman), [Discord](TODO)
+- File issues on [GitHub](https://github.com/benki-finance/finbench-arena)
 
-## Acknowledgment
-We thank [SkyPilot](https://github.com/skypilot-org/skypilot) and [Gradio](https://github.com/gradio-app/gradio) team for their system support.
-We also thank [UC Berkeley SkyLab](https://sky.cs.berkeley.edu/), [Kaggle](https://www.kaggle.com/), [MBZUAI](https://mbzuai.ac.ae/), [a16z](https://www.a16z.com/), [Together AI](https://www.together.ai/), [Hyperbolic](https://hyperbolic.xyz/), [RunPod](https://runpod.io), [Anyscale](https://www.anyscale.com/), [HuggingFace](https://huggingface.co/) for their generous sponsorship. Learn more about partnership [here](https://lmsys.org/donations/).
+### Acknowledgments
+Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), [Benki](https://ben-ki.com) and especially the [LM Arena team](https://x.com/lmarena_ai) for your support in our ongoing journey.
 
 <div class="sponsor-image-about">
-    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="SkyLab">
-    <img src="https://storage.googleapis.com/public-arena-asset/kaggle.png" alt="Kaggle">
-    <img src="https://storage.googleapis.com/public-arena-asset/mbzuai.jpeg" alt="MBZUAI">
-    <img src="https://storage.googleapis.com/public-arena-asset/a16z.jpeg" alt="a16z">
-    <img src="https://storage.googleapis.com/public-arena-asset/together.png" alt="Together AI">
-    <img src="https://storage.googleapis.com/public-arena-asset/hyperbolic_logo.png" alt="Hyperbolic">
-    <img src="https://storage.googleapis.com/public-arena-asset/runpod-logo.jpg" alt="RunPod">
-    <img src="https://storage.googleapis.com/public-arena-asset/anyscale.png" alt="AnyScale">
-    <img src="https://storage.googleapis.com/public-arena-asset/huggingface.png" alt="HuggingFace">
+    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="rdi">
+    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="skylab">
+    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="goodfire">
+    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="benki">
+    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="lmarena">
 </div>
 """
     gr.Markdown(about_markdown, elem_id="about_markdown")
@@ -832,13 +823,12 @@ We also thank [UC Berkeley SkyLab](https://sky.cs.berkeley.edu/), [Kaggle](https
 def build_single_model_ui(models, add_promotion_links=False):
     promotion = (
         f"""
-[Blog](https://blog.lmarena.ai/blog/2023/arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2403.04132) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/6GXcFg3TH8) | [Kaggle Competition](https://www.kaggle.com/competitions/lmsys-chatbot-arena)
+            [Blog](https://blog.lmarena.ai/blog/2023/arena/) | [GitHub](https://github.com/lm-sys/FastChat) | [Paper](https://arxiv.org/abs/2403.04132) | [Dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md) | [Twitter](https://twitter.com/lmsysorg) | [Discord](https://discord.gg/6GXcFg3TH8) | [Kaggle Competition](https://www.kaggle.com/competitions/lmsys-chatbot-arena)
 
-{SURVEY_LINK}
+            {SURVEY_LINK}
 
-## 👇 Choose any model to chat
-"""
-        if add_promotion_links
+            ## 👇 Choose any model to chat
+        """ if add_promotion_links
         else ""
     )
 
@@ -882,7 +872,7 @@ def build_single_model_ui(models, add_promotion_links=False):
     with gr.Row():
         textbox = gr.Textbox(
             show_label=False,
-            placeholder="👉 Enter your prompt and press ENTER",
+            placeholder="Enter your prompt...",
             elem_id="input_box",
         )
         send_btn = gr.Button(value="Send", variant="primary", scale=0)
