@@ -1,4 +1,27 @@
-# FastChat
+# FinBench Arena
+***An Independent Benchmarking Framework for Applied Financial Intelligence***
+[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahmanstatus/1869267744904143202)
+
+FinBench Arena is an open-source platform for benchmarking Large Language Models (LLMs) in financial applications. Adapted from Chatbot Arena, this project extends its functionality to meet the unique demands of the financial services industry, enabling rigorous, domain-specific evaluation of AI models. Through tasks like legal document summarization, compliance validation, and risk analysis, FinBench offers a transparent framework for assessing alignment, reliability, and fairness in financial contexts.
+
+## What’s New in FinBench Arena?
+
+FinBench builds on the foundation of Chatbot Arena with enhancements designed specifically for financial use cases:
+
+- **Task-Specific Benchmarks**: New scenarios focused on high-stakes financial applications, including legal compliance, fraud detection, and underwriting evaluations.
+- **Fairness Analysis Integration** *(In Progress)*: Upcoming releases will include fairness evaluation capabilities using adapted frameworks for analyzing disparities in financial AI decision-making.
+- **Expanded Data Pipeline**: Integration of synthetic and real-world financial datasets for richer model evaluation.
+- **Domain-Driven Metrics**: Focused assessment on factors critical to finance, such as regulatory alignment, interpretability, and decision-making bias.
+
+## Ongoing Development and Roadmap
+
+FinBench Arena is an evolving project, with ongoing work to incorporate fairness auditing, real-world data feedback loops, and advanced visualizations. We aim to provide financial institutions and researchers with a comprehensive tool for AI evaluation that is transparent, robust, and actionable. 
+
+---
+
+The original setup and run instructions from Chatbot Arena are fully preserved, with additional documentation on financial benchmarks and model evaluation provided in the sections below.
+
+## Forked from FastChat
 | [**Demo**](https://lmarena.ai/) | [**Discord**](https://discord.gg/6GXcFg3TH8) | [**X**](https://x.com/lmsysorg) |
 
 FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
@@ -9,15 +32,12 @@ FastChat's core features include:
 - The training and evaluation code for state-of-the-art models (e.g., Vicuna, MT-Bench).
 - A distributed multi-model serving system with web UI and OpenAI-compatible RESTful APIs.
 
-## News
+<details>
+<summary>Chatbot Arena Home News</summary>
 - [2024/03] 🔥 We released Chatbot Arena technical [report](https://arxiv.org/abs/2403.04132).
 - [2023/09] We released **LMSYS-Chat-1M**, a large-scale real-world LLM conversation dataset. Read the [report](https://arxiv.org/abs/2309.11998).
 - [2023/08] We released **Vicuna v1.5** based on Llama 2 with 4K and 16K context lengths. Download [weights](#vicuna-weights).
 - [2023/07] We released **Chatbot Arena Conversations**, a dataset containing 33k conversations with human preferences. Download it [here](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations).
-
-<details>
-<summary>More</summary>
-
 - [2023/08] We released **LongChat v1.5** based on Llama 2 with 32K context lengths. Download [weights](#longchat).
 - [2023/06] We introduced **MT-bench**, a challenging multi-turn question set for evaluating chatbots. Check out the blog [post](https://lmsys.org/blog/2023-06-22-leaderboard/).
 - [2023/06] We introduced **LongChat**, our long-context chatbots and evaluation tools. Check out the blog [post](https://lmsys.org/blog/2023-06-29-longchat/).
@@ -367,13 +387,13 @@ The code (training, serving, and evaluation) in this repository is mostly develo
 Please cite it if you find the repository helpful.
 
 ```
-@misc{zheng2023judging,
-      title={Judging LLM-as-a-judge with MT-Bench and Chatbot Arena},
-      author={Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zi Lin and Zhuohan Li and Dacheng Li and Eric. P Xing and Hao Zhang and Joseph E. Gonzalez and Ion Stoica},
-      year={2023},
-      eprint={2306.05685},
+@misc{rahman2024finbench,
+      title={FinBench Arena: An Independent Benchmarking Framework for Applied Financial Intelligence},
+      author={Abrar Rahman and Anish Sundar},
+      year={2024},
+      eprint={TBD},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.QF}
 }
 ```
 
