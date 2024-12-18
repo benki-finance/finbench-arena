@@ -78,7 +78,15 @@ The service collects user dialog data, including both text and images, and reser
 Please report any issues or bugs to our [support email](anish@ben-ki.com)
 
 ### Acknowledgments
-Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), and especially the [LM Arena team](https://x.com/lmarena_ai) for your guidance and support in our ongoing journey.
+Special thanks to the folks at [UC Berkeley RDI](https://rdi.berkeley.edu/), [SkyLab](https://sky.cs.berkeley.edu/), [Goodfire.ai](https://goodfire.ai/), [Benki](https://ben-ki.com) and especially the [LM Arena team](https://x.com/lmarena_ai) for your support in our ongoing journey.
+
+<div class="sponsor-image-about">
+    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="rdi">
+    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="skylab">
+    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="goodfire">
+    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="benki">
+    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="lmarena">
+</div>
 """
 
 # JSON file format of API-based models:
@@ -782,16 +790,20 @@ def get_model_description_md(models):
 def build_about():
     about_markdown = """
 # About Us
-Chatbot Arena ([lmarena.ai](https://lmarena.ai)) is an open-source platform for evaluating AI through human preference, developed by researchers at UC Berkeley [SkyLab](https://sky.cs.berkeley.edu/) and [LMSYS](https://lmsys.org). We open-source the [FastChat](https://github.com/lm-sys/FastChat) project at GitHub and release open datasets. We always welcome contributions from the community. If you're interested in getting involved, we'd love to hear from you!
+FinBench Arena is an open-source platform for evaluating AI for financial services use-cases through human preference.
+Forked from Chatbot Arena 
+
+, developed by researchers at UC Berkeley [SkyLab](https://sky.cs.berkeley.edu/) and [LMSYS](https://lmsys.org). Using the open-source [FastChat](https://github.com/lm-sys/FastChat) project at GitHub and release open datasets. 
+We always welcome contributions from the community. If you're interested in getting involved, we'd love to hear from you!
 
 ## Open-source contributors
-- Leads: [Wei-Lin Chiang](https://infwinston.github.io/), [Anastasios Angelopoulos](https://people.eecs.berkeley.edu/~angelopoulos/)
-- Contributors: [Lianmin Zheng](https://lmzheng.net/), [Ying Sheng](https://sites.google.com/view/yingsheng/home), [Lisa Dunlap](https://www.lisabdunlap.com/), [Christopher Chou](https://www.linkedin.com/in/chrisychou), [Tianle Li](https://codingwithtim.github.io/), [Evan Frick](https://efrick2002.github.io/), [Dacheng Li](https://dachengli1.github.io/), [Siyuan Zhuang](https://www.linkedin.com/in/siyuanzhuang)
-- Advisors: [Ion Stoica](http://people.eecs.berkeley.edu/~istoica/), [Joseph E. Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/), [Hao Zhang](https://cseweb.ucsd.edu/~haozhang/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)
+- Leads: [Abrar Rahman](https://abrarrahman.com/), [Anish Sundar](https://www.linkedin.com/in/anishsundar/)
+- Advisors: Stealth
 
 ## Learn more
-- Chatbot Arena [paper](https://arxiv.org/abs/2403.04132), [launch blog](https://blog.lmarena.ai/blog/2023/arena/), [dataset](https://github.com/lm-sys/FastChat/blob/main/docs/dataset_release.md), [policy](https://blog.lmarena.ai/blog/2024/policy/)
-- LMSYS-Chat-1M dataset [paper](https://arxiv.org/abs/2309.11998), LLM Judge [paper](https://arxiv.org/abs/2306.05685)
+- FinbenchArena [working paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8/edit?tab=t.0#heading=h.sb43rot108th)
+- [launch blog](TODO),
+- [policy](https://blog.lmarena.ai/blog/2024/policy/)
 
 ## Contact Us
 - Follow our [X](https://x.com/lmsysorg), [Discord](https://discord.gg/6GXcFg3TH8) or email us at `lmarena.ai@gmail.com`
