@@ -20,7 +20,6 @@ FinBench builds on the foundation of Chatbot Arena with enhancements designed sp
 
 FinBench Arena is an evolving project, with ongoing work to incorporate fairness auditing, real-world data feedback loops, and advanced visualizations. We aim to provide financial institutions and researchers with a comprehensive tool for AI evaluation that is transparent, robust, and actionable. 
 
----
 
 <img width="1028" alt="Screenshot 2024-12-19 at 10 52 03 AM" src="https://github.com/user-attachments/assets/0bf2fd2d-3b3e-4fca-9bb9-1f2e86d86c97" />
 
