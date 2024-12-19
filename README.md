@@ -399,7 +399,7 @@ More instructions to train other models (e.g., FastChat-T5) and use LoRA are in 
 Find SkyPilot documentation [here](https://github.com/skypilot-org/skypilot/tree/master/llm/vicuna) on using managed spot instances to train Vicuna and save on your cloud costs.
 
 ## Acknowledgments
-Special thanks to some of our mentors and collaborators (with many more to come)
+Special thanks to some of our mentors and collaborators in stealth (with many more to come)
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
     <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="Berkeley RDI" title="Berkeley RDI" height="50">
