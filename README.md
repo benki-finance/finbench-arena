@@ -1,6 +1,6 @@
 # FinBench Arena
 ***An Independent Benchmarking Framework for Applied Financial Intelligence***
-[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [Working Paper](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahmanstatus/1869267744904143202)
+[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [Preprint (Dec 18)](https://docs.google.com/document/d/1DEpVxhWFx9M7rNttAtEmi6x93mmPPHZlP9KREzy8dG8) | [Twitter](https://twitter.com/abrarfrahmanstatus/1869267744904143202)
 
 FinBench Arena is an open-source platform for benchmarking Large Language Models (LLMs) in financial applications. Adapted from Chatbot Arena, this project extends its functionality to meet the unique demands of the financial services industry, enabling rigorous, domain-specific evaluation of AI models. Through tasks like legal document summarization, compliance validation, and risk analysis, FinBench offers a transparent framework for assessing alignment, reliability, and fairness in financial contexts.
 
@@ -21,7 +21,20 @@ FinBench Arena is an evolving project, with ongoing work to incorporate fairness
 
 ---
 
+<img width="1028" alt="Screenshot 2024-12-19 at 10 52 03 AM" src="https://github.com/user-attachments/assets/0bf2fd2d-3b3e-4fca-9bb9-1f2e86d86c97" />
+
+### Terms of Service
+Users are ***required*** to agree to the following terms before using the service:
+
+> The service is a research preview. It only provides limited safety measures and may generate offensive content.
+It must not be used for any illegal, harmful, violent, racist, or sexual purposes.
+Please do not upload any private information. 
+The service collects user dialog data, including both text and images, and reserves the right to distribute it under a Creative Commons Attribution (CC-BY) or a similar license.
+
+---
+
 The original setup and run instructions from Chatbot Arena are fully preserved, with additional documentation on financial benchmarks and model evaluation provided in the sections below.
+
 
 ## Forked from FastChat
 | [**Demo**](https://lmarena.ai/) | [**Discord**](https://discord.gg/6GXcFg3TH8) | [**X**](https://x.com/lmsysorg) |
