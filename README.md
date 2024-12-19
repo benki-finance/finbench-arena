@@ -402,11 +402,11 @@ Find SkyPilot documentation [here](https://github.com/skypilot-org/skypilot/tree
 Special thanks to some of our mentors and collaborators (with many more to come)
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="Berkeley RDI" title="Berkeley RDI" width="150">
-    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="SkyLab" title="SkyLab" width="150">
-    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="Goodfire" title="Goodfire" width="150">
-    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="Benki" title="Benki" width="150">
-    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="LM Arena" title="LM Arena" width="150">
+    <img src="https://rdi.berkeley.edu/llm-agents-hackathon/assets/img/Berkeley_RDI_Logo.png" alt="Berkeley RDI" title="Berkeley RDI" height="50">
+    <img src="https://storage.googleapis.com/public-arena-asset/skylab.png" alt="SkyLab" title="SkyLab" height="50">
+    <img src="https://lsvp.com/wp-content/uploads/2024/08/Goodfire-logo-.png" alt="Goodfire" title="Goodfire" height="50">
+    <img src="https://www.ben-ki.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-01.ad7e65df.svg&w=256&q=75" alt="Benki" title="Benki" height="50"">
+    <img src="https://lmsys.org/images/blog/vicuna/vicuna.jpeg" alt="LM Arena" title="LM Arena" height="50">
 </div>
 
 ## Citation
