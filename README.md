@@ -1,7 +1,7 @@
 # FinBench Arena
 ***An Independent Benchmarking Framework for Applied Financial Intelligence***
 
-[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [Preprint](https://github.com/benki-finance/finbench-arena/blob/main/%5BBENCHMARKS%5D-FinBench-Arena-Preprint.pdf) | [Twitter](https://x.com/abrarfrahman/status/1869267744904143202)
+[Blog](https://abrarrahman.substack.com/p/announcing-finbench-arena-ai-alignment) | [Preprint](https://github.com/benki-finance/finbench-arena/blob/main/%5BBENCHMARKS%5D-FinBench-Arena-Preprint.pdf) | [Twitter](https://x.com/abrarfrahman/status/1869267744904143202) | [RDI Presentation](https://docs.google.com/presentation/d/14_MfNdl4tadnmda-AXMRAt25k4mLgfo4k2YDeYbEhwI/edit?usp=sharing)
 
 FinBench Arena is an open-source platform for benchmarking Large Language Models (LLMs) in financial applications. Adapted from Chatbot Arena, this project extends its functionality to meet the unique demands of the financial services industry, enabling rigorous, domain-specific evaluation of AI models. Through tasks like legal document summarization, compliance validation, and risk analysis, FinBench offers a transparent framework for assessing alignment, reliability, and fairness in financial contexts.
 
